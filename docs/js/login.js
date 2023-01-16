@@ -59,8 +59,8 @@ function checkFormulario() {
 
 function checkPermitido(obj) {
     const permitido = {
-        username: 'JohnnathanGallego',
-        password: 123,
+        username: 'bit',
+        password: 2023,
         accept: true,
     };
 
@@ -68,7 +68,7 @@ if (
     obj.username === permitido.username &&
     parseInt(obj.password) === permitido.password &&
     obj.accept === permitido.accept ) {
-    window.open('http://127.0.0.1:5500/src/exercises.html', '_self');   
+    window.open('http://127.0.0.1:5501/docs/exercises.html', '_self');   
 }else{
     alert('Acceso Denegado. Datos incorrectos. ', 'warning');; 
 }
