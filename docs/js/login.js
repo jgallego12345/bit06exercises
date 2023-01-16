@@ -68,7 +68,7 @@ if (
     obj.username === permitido.username &&
     parseInt(obj.password) === permitido.password &&
     obj.accept === permitido.accept ) {
-    window.open('./exercises.html', '_self');   
+    window.open('https://jgallego12345.github.io/bit06exercises/blob/main/docs/exercises.html', '_self');   
 }else{
     alert('Acceso Denegado. Datos incorrectos. ', 'warning');; 
 }
