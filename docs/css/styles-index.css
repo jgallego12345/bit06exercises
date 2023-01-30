@@ -82,6 +82,7 @@ button:hover{
   }
 }
 
+/*Tamaño celulares Tablets */
 @media screen and (min-width: 769px) and (max-width: 920px){
 body{
   height: 1180px;
@@ -111,13 +112,8 @@ body{
   }
 }
 
+/*Tamaño celulares PC */
 @media screen and (min-width: 921px){
-  body {
-    background-position: center center;
-    background-size:cover;
-    
-}
-
 .imglogin{
   width: 70%;
   display: block;
