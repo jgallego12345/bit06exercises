@@ -69,28 +69,44 @@ button:hover{
 
 
 /*Tamaño celulares medianos */
-@media screen and (min-width: 321px) and (max-width: 480px){
+@media screen and (min-width: 321px) and (max-width: 768px){
+  body {
+    background:  url(../img/fondo-pantalla.png);
+    background-position: center center;
+    height: 51rem;
+    background-size: cover;
+    
+}
+  
   form {
     width: 60%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.445);
+    background-color: rgba(123, 122, 122, 0.624);
+    margin-top: 30px;
+    margin-bottom: 0;
   }
+}
+
+@media screen and (min-width: 769px) and (max-width: 920px){
+  body {
+    background:  url(../img/fondo-pantalla.png);
+    background-position: center center;
+    height: 71rem;
+    background-size: cover;
+    
+}
+
+.imglogin{
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
   
-  .imglogin{
-    width: 100%;
-  }
-
-  .aceptar{
-    height: auto;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-
-  }
-
-  .checkbox{
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
+  form {
+    width: 80%;
+    background-color: rgba(126, 125, 125, 0.624);
+    margin-top: 40px;
+    margin-bottom: 0;
   }
 
   .termycond{
@@ -98,28 +114,36 @@ button:hover{
     display: block;
     margin-left: auto;
     margin-right: auto; 
-    font-size: 70%;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 921px){
+  body {
+    background:  url(../img/fondo-pantalla.png);
+    background-position: center center;
+    background-size:cover;
+    
+}
+
+.imglogin{
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+  
+  form {
+    width: 20%;
+    background-color: rgba(126, 125, 125, 0.624);
+    margin: 30px 100% 0 30px;
   }
 
-  input{
-    border-radius: 20px;
-    border: 2px rgb(202, 171, 134) dotted;
-  }
-
-   button{
-    width: 8rem;
-    height: 2rem;
-    border-radius: 20px;
-    border: none;
-    background: bisque;
+  .termycond{
+    text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto; 
-  }
-
-  button:hover{
-    background: green;
-    color: white;
-    transition: 1s;
+    font-size: 20px;
   }
 }
