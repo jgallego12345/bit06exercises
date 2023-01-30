@@ -28,11 +28,33 @@
         <!-- Acordeon Bootstrap-->
         <div class="accordion" id="accordionPanelsStayOpenExample">
 
+            <!--Ingrese su nombre al usuario y saludarlo. -->
+
+            <section>
+                <p class="parrafo3" >Si llegaste hasta aqui, es por que estamos en confianza. </p>
+                <h2>Como te llamas?</h2>
+                <h3 id="liveAlertPlaceholder"></h3>
+                <form id="exer1Form">
+                  <div class="mb-3">
+                    <label class="form-label" >
+                      <input type="text" class="" aria-describedby="nameHelp" name="name" placeholder="Escribe tu nombre"/>
+                    </label>
+                  </div>
+                  <button type="submit" class="respuesta1" id="liveAlertBtn"> Enviar!
+                  </button>
+                </form>
+              </section>
+
+              <hr>
+            <!-- Ingrese su edad y responder si es o no mayor de edad.-->
+
+
+
             <!-- Ejercicio #1 - Suma de Dos numeros-->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
                         aria-controls="panelsStayOpen-collapseOne">
                         <section class="title-excersice">
                             <p class="p-titleexcersice">Ejercicio #1</p>
@@ -40,7 +62,7 @@
                         </section>
                     </button>
                 </h2>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse collapse"
                     aria-labelledby="panelsStayOpen-headingOne">
                     <div class="accordion-body">
                         <form id="ejercicio1">
@@ -51,7 +73,8 @@
                                 <input type="text" name="ejerc1num2" placeholder="Ej: 9">
                             </label>
                             <button class="respuesta" type="submit">Sumar</button>
-                            <label> Resultado
+                            <label>
+                                <p>Resultado:</p>
                                 <input type="text" id="resultado1" placeholder="Observa la magia.">
                             </label>
                         </form>
@@ -82,7 +105,8 @@
                                 <input type="text" name="ejerc2num2" placeholder="Ej: 9">
                             </label>
                             <button class="respuesta" type="submit">Restar</button>
-                            <label> Resultado
+                            <label> 
+                                <p>Resultado:</p>
                                 <input type="text" id="resultado2" placeholder="Observa la magia.">
                             </label>
                         </form>
@@ -114,9 +138,10 @@
                             <label> ingresa el segundo numero
                                 <input type="text" name="ejerc3num2" placeholder="Ej: 9">
                             </label>
-                            <button type="submit">Multiplicar</button>
-                            <label> Resultado
-                                <input type="text" id="resultado3" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Multiplicar</button>
+                            <label> 
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado3" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -145,9 +170,10 @@
                             <label> ingresa el segundo numero
                                 <input type="text" name="ejerc4num2" placeholder="Ej: 9">
                             </label>
-                            <button type="submit">Dividir</button>
-                            <label> Resultado
-                                <input type="text" id="resultado4" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Dividir</button>
+                            <label> 
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado4" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -174,9 +200,10 @@
                             <label> Ingresa el numero
                                 <input type="text" name="ejerc5num1" placeholder="Ej: 4">
                             </label>
-                            <button type="submit">Resultados</button>
-                            <label> Resultado
-                                <input type="text" id="resultado5" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Resultados</button>
+                            <label> 
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado5" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -203,9 +230,10 @@
                             <label> Ingresa el numero
                                 <input type="text" name="ejerc6num1" placeholder="Ej: 8">
                             </label>
-                            <button type="submit">Resultados</button>
-                            <label> Resultado
-                                <input type="text" id="resultado6" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Resultados</button>
+                            <label> 
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado6" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -231,9 +259,10 @@
                             <label> Ingresa el numero
                                 <input type="text" name="ejerc7num1" placeholder="Ej: 5">
                             </label>
-                            <button type="submit">Resultados</button>
-                            <label> Resultado
-                                <input type="text" id="resultado7" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Resultados</button>
+                            <label> 
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado7" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -259,9 +288,10 @@
                             <label> Ingresa el numero
                                 <input type="text" name="ejerc8num1" placeholder="Ej: 20">
                             </label>
-                            <button type="submit">Resultados</button>
-                            <label> Resultado
-                                <input type="text" id="resultado8" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Resultados</button>
+                            <label>
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado8" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -287,9 +317,10 @@
                             <label> Ingresa el numero
                                 <input type="text" name="ejerc9num1" placeholder="Ej: 15">
                             </label>
-                            <button type="submit">Resultados</button>
-                            <label> Resultado
-                                <input type="text" id="resultado9" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Resultados</button>
+                            <label>
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado9" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -315,9 +346,10 @@
                             <label> Ingresa el numero
                                 <input type="text" name="ejerc10num1" placeholder="Ej: 8">
                             </label>
-                            <button type="submit">Resultados</button>
-                            <label> Resultado
-                                <input type="text" id="resultado10" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Resultados</button>
+                            <label>
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado10" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -343,9 +375,10 @@
                             <label> Ingresa el numero
                                 <input type="text" name="ejerc11num1" placeholder="Ej: 30">
                             </label>
-                            <button type="submit">Resultados</button>
-                            <label> Resultado
-                                <input type="text" id="resultado11" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Resultados</button>
+                            <label>
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado11" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -371,9 +404,10 @@
                             <label> Ingresa el numero
                                 <input type="text" name="ejerc12num1" placeholder="Ej: 5">
                             </label>
-                            <button type="submit">Resultados</button>
-                            <label> Resultado
-                                <input type="text" id="resultado12" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Resultados</button>
+                            <label>
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado12" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -399,9 +433,10 @@
                             <label> Ingresa el numero
                                 <input type="text" name="ejerc13num1" placeholder="Ej: -10">
                             </label>
-                            <button type="submit">Resultados</button>
-                            <label> Resultado
-                                <input type="text" id="resultado13" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Resultados</button>
+                            <label>
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado13" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -427,9 +462,10 @@
                             <label> Ingresa el numero
                                 <input type="text" name="ejerc14num1" placeholder="Ej: 5">
                             </label>
-                            <button type="submit">Resultados</button>
-                            <label> Resultado
-                                <input type="text" id="resultado14" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Resultados</button>
+                            <label>
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado14" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -455,9 +491,10 @@
                             <label> Ingresa el numero
                                 <input type="text" name="ejerc15num1" placeholder="Ej: 16">
                             </label>
-                            <button type="submit">Resultados</button>
-                            <label> Resultado
-                                <input type="text" id="resultado15" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Resultados</button>
+                            <label>
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado15" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -486,9 +523,10 @@
                             <label> ingresa el segundo numero
                                 <input type="text" name="ejerc16num2" placeholder="Ej: 100">
                             </label>
-                            <button type="submit">Dividir</button>
-                            <label> Resultado
-                                <input type="text" id="resultado16" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Dividir</button>
+                            <label>
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado16" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -519,9 +557,10 @@
                                 <label> ingresa el segundo numero
                                     <input type="text" name="ejerc17num2" placeholder="Ej: 100">
                                 </label>
-                                <button type="submit">Dividir</button>
-                                <label> Resultado
-                                    <input type="text" id="resultado17" placeholder="Resultado">
+                                <button class="respuesta" type="submit">Dividir</button>
+                                <label>
+                                    <p>Resultado:</p>
+                                    <input type="text" id="resultado17" placeholder="Observa la magia.">
                                 </label>
                             </form>
                         </div>
@@ -555,9 +594,10 @@
                             <label> Ingresa una operación: sumar, restar, multiplicar o dividir
                                 <input type="text" name="operacion" placeholder="sumar, restar, multiplicar o dividir">
                             </label>
-                            <button type="submit">operar</button>
-                            <label> Resultado
-                                <input type="text" id="resultado18" placeholder="Resultado">
+                            <button class="respuesta" type="submit">operar</button>
+                            <label>
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado18" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -583,9 +623,10 @@
                             <label> Ingresa el numero
                                 <input type="text" name="ejerc19num1" placeholder="Ej: 58">
                             </label>
-                            <button type="submit">Resultados</button>
-                            <label> Resultado
-                                <input type="text" id="resultado19" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Resultados</button>
+                            <label>
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado19" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -612,9 +653,10 @@
                             <label> Ingresa el numero
                                 <input type="text" name="ejerc20num1" placeholder="Ej: 8">
                             </label>
-                            <button type="submit">Resultados</button>
-                            <label> Resultado
-                                <input type="text" id="resultado20" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Resultados</button>
+                            <label>
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado20" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -642,9 +684,10 @@
                             <label> Ingresa el numero
                                 <input type="text" name="ejerc21num1" placeholder="Ej: 55">
                             </label>
-                            <button type="submit">Resultados</button>
-                            <label> Resultado
-                                <input type="text" id="resultado21" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Resultados</button>
+                            <label>
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado21" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -670,9 +713,10 @@
                             <label> Ingresa el numero
                                 <input type="text" name="ejerc22num1" placeholder="Ej: 50">
                             </label>
-                            <button type="submit">Resultados</button>
-                            <label> Resultado
-                                <input type="text" id="resultado22" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Resultados</button>
+                            <label>
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado22" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
@@ -698,9 +742,10 @@
                             <label> Ingresa el numero
                                 <input type="text" name="ejerc23num1" placeholder="Ej: 60">
                             </label>
-                            <button type="submit">Resultados</button>
-                            <label> Resultado
-                                <input type="text" id="resultado23" placeholder="Resultado">
+                            <button class="respuesta" type="submit">Resultados</button>
+                            <label>
+                                <p>Resultado:</p>
+                                <input type="text" id="resultado23" placeholder="Observa la magia.">
                             </label>
                         </form>
                     </div>
