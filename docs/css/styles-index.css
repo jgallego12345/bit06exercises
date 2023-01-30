@@ -4,7 +4,7 @@ html{
 /*Tamaño celulares pequeños*/
 body {
     background:  url(../img/fondo-pantalla.png);
-    background-position: center center;
+    background-position: center;
     
 }
 
@@ -43,11 +43,13 @@ form {
   margin-left: auto;
   margin-right: auto; 
   font-size: 70%;
+  cursor: pointer;
 }
 
 input{
   border-radius: 20px;
   border: 2px rgb(202, 171, 134) dotted;
+  padding-left: 15px;
 }
 
  button{
@@ -70,13 +72,7 @@ button:hover{
 
 /*Tamaño celulares medianos */
 @media screen and (min-width: 321px) and (max-width: 768px){
-  body {
-    background:  url(../img/fondo-pantalla.png);
-    background-position: center center;
-    height: 51rem;
-    background-size: cover;
-    
-}
+
   
   form {
     width: 60%;
@@ -87,23 +83,20 @@ button:hover{
 }
 
 @media screen and (min-width: 769px) and (max-width: 920px){
-  body {
-    background:  url(../img/fondo-pantalla.png);
-    background-position: center center;
-    height: 71rem;
-    background-size: cover;
-    
+body{
+  height: 1180px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
 .imglogin{
-  width: 40%;
+  width: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto; 
 }
   
   form {
-    width: 80%;
+    width: 50%;
     background-color: rgba(126, 125, 125, 0.624);
     margin-top: 40px;
     margin-bottom: 0;
@@ -120,10 +113,8 @@ button:hover{
 
 @media screen and (min-width: 921px){
   body {
-    background:  url(../img/fondo-pantalla.png);
     background-position: center center;
     background-size:cover;
-    height: 41rem;
     
 }
 
