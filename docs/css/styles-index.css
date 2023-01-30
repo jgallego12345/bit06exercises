@@ -123,6 +123,7 @@ button:hover{
     background:  url(../img/fondo-pantalla.png);
     background-position: center center;
     background-size:cover;
+    height: 41rem;
     
 }
 
